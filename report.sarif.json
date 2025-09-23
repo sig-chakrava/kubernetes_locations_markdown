@@ -9,6 +9,90 @@
                     "organization": "Black Duck",
                     "rules": [
                         {
+                            "id": "googlecloudplatform kubernetes:v1.34.0-rc.1",
+                            "shortDescription": {
+                                "text": "Files Modified: googlecloudplatform kubernetes:v1.34.0-rc.1"
+                            },
+                            "fullDescription": {
+                                "text": "googlecloudplatform kubernetes:v1.34.0-rc.1 has the following vulnerabilities: [:yellow_circle:] BDSA-2025-9979"
+                            },
+                            "help": {
+                                "markdown": "\n## Upgrade Guidance\n\n\n\n| **Affected Dependency**  | **Recommended short term version** | **Recommended long term version** |\n| :--- | :--- | :--- |\n| googlecloudplatform kubernetes:v1.34.0-rc.1  | 1.34.1  | 1.34.1 |\n\n\n\n[Click Here To See More Details in Black Duck](https://saastest.app.blackduck.com//api/projects/f2fdbe66-e337-439c-9887-6aa61e1df1bf/versions/c85bf998-3544-44a6-9b11-89efdbdcf326/vulnerability-bom?selectedComponent=76294af8-b551-40c9-9f48-dd5048fb47fb)\n\n## Vulnerabilities(BDSA,CVE)\n\n \n| **Severity**  | **Vulnerability** | **Summary** | **Solution Available?** | **Workaround Available?** |\n| :--- |:--- | :--- | :--- | :--- |\n| :yellow_circle: | [BDSA-2025-9979](https://openhub.net/vulnerabilities/bdsa/BDSA-2025-9979) | Kubernetes Vulnerable to Unauthorized Node Deletion via Improper Handling of 'OwnerReference' in 'admission.go' FIle | Yes | Yes |\n\n\n\n\n## Locations\n- api/\n- api/discovery/\n- build/pause/\n- CHANGELOG/\n- cluster/addons/\n- cluster/gce/addons/\n- cluster/gce/manifests/\n- cluster/gce/windows/\n- cluster/images/etcd/\n- cluster/log-dump/\n\n\n## References\n* Common Weakness Enumeration: [CWE-863](https://cwe.mitre.org/data/definitions/863.html)\n\n",
+                                "text": "googlecloudplatform kubernetes:v1.34.0-rc.1 has the following vulnerabilities: [:yellow_circle:] BDSA-2025-9979"
+                            },
+                            "properties": {
+                                "security-severity": "6.8",
+                                "tags": [
+                                    "security",
+                                    "open_source_analysis",
+                                    "files modified",
+                                    "patch_available",
+                                    "external/cwe/cwe-863"
+                                ]
+                            },
+                            "defaultConfiguration": {
+                                "level": "warning"
+                            }
+                        },
+                        {
+                            "id": "kubernetes1.33 1.33.0-1.fc42",
+                            "shortDescription": {
+                                "text": "Files Added/Deleted: kubernetes1.33 1.33.0-1.fc42"
+                            },
+                            "fullDescription": {
+                                "text": "kubernetes1.33 1.33.0-1.fc42 has the following vulnerabilities: [:yellow_circle:] BDSA-2025-9979, [:large_blue_circle:] BDSA-2024-10759, [:large_blue_circle:] BDSA-2025-5493"
+                            },
+                            "help": {
+                                "markdown": "\n## Upgrade Guidance\n\n\n\n| **Affected Dependency**  | **Recommended short term version** | **Recommended long term version** |\n| :--- | :--- | :--- |\n| kubernetes1.33 1.33.0-1.fc42  | 1.33.5  | 1.33.5 |\n\n\n\n[Click Here To See More Details in Black Duck](https://saastest.app.blackduck.com//api/projects/f2fdbe66-e337-439c-9887-6aa61e1df1bf/versions/c85bf998-3544-44a6-9b11-89efdbdcf326/vulnerability-bom?selectedComponent=6c0dbb25-e9b9-4bf8-80d9-7a2c375611ed)\n\n## Vulnerabilities(BDSA,CVE)\n\n \n| **Severity**  | **Vulnerability** | **Summary** | **Solution Available?** | **Workaround Available?** |\n| :--- |:--- | :--- | :--- | :--- |\n| :yellow_circle: | [BDSA-2025-9979](https://openhub.net/vulnerabilities/bdsa/BDSA-2025-9979) | Kubernetes Vulnerable to Unauthorized Node Deletion via Improper Handling of 'OwnerReference' in 'admission.go' FIle | Yes | Yes |\n| :large_blue_circle: | [BDSA-2024-10759](https://openhub.net/vulnerabilities/bdsa/BDSA-2024-10759) | Kubernetes Vulnerable to Network Restriction Bypass via Race Condition in 'Namespace Termination' | - | Yes |\n| :large_blue_circle: | [BDSA-2025-5493](https://openhub.net/vulnerabilities/bdsa/BDSA-2025-5493) | Kubernetes NodeRestriction Admission Controller Vulnerable to Privilege Escalation via Unauthorized Dynamic Resource Access in 'DynamicResourceAllocation' Feature | Yes | - |\n\n\n\n\n## Locations\n- hack/jenkins/\n- pkg/features/\n- pkg/kubelet/apis/config/\n- pkg/kubelet/cm/cpumanager/\n- pkg/kubelet/userns/\n- staging/src/k8s.io/api/testdata/v1.33.0/\n- staging/src/k8s.io/client-go/tools/cache/\n- test/cmd/\n- test/e2e/apimachinery/\n- test/e2e/apps/\n\n\n## References\n* Common Weakness Enumeration: [CWE-863](https://cwe.mitre.org/data/definitions/863.html)\n* Common Weakness Enumeration: [CWE-693](https://cwe.mitre.org/data/definitions/693.html)\n* Common Weakness Enumeration: [CWE-362](https://cwe.mitre.org/data/definitions/362.html)\n* Common Weakness Enumeration: [CWE-20](https://cwe.mitre.org/data/definitions/20.html)\n\n",
+                                "text": "kubernetes1.33 1.33.0-1.fc42 has the following vulnerabilities: [:yellow_circle:] BDSA-2025-9979, [:large_blue_circle:] BDSA-2024-10759, [:large_blue_circle:] BDSA-2025-5493"
+                            },
+                            "properties": {
+                                "security-severity": "6.8",
+                                "tags": [
+                                    "security",
+                                    "open_source_analysis",
+                                    "files added/deleted",
+                                    "patch_available",
+                                    "external/cwe/cwe-863",
+                                    "external/cwe/cwe-693",
+                                    "external/cwe/cwe-362",
+                                    "external/cwe/cwe-20"
+                                ]
+                            },
+                            "defaultConfiguration": {
+                                "level": "warning"
+                            }
+                        },
+                        {
+                            "id": "googlecloudplatform kubernetes:v1.32.0-alpha.3",
+                            "shortDescription": {
+                                "text": "Files Modified: googlecloudplatform kubernetes:v1.32.0-alpha.3"
+                            },
+                            "fullDescription": {
+                                "text": "googlecloudplatform kubernetes:v1.32.0-alpha.3 has the following vulnerabilities: [:yellow_circle:] BDSA-2025-2192, [:yellow_circle:] BDSA-2025-9979, [:large_blue_circle:] BDSA-2024-10759"
+                            },
+                            "help": {
+                                "markdown": "\n## Upgrade Guidance\n\n\n\n| **Affected Dependency**  | **Recommended short term version** | **Recommended long term version** |\n| :--- | :--- | :--- |\n| googlecloudplatform kubernetes:v1.32.0-alpha.3  | 1.34.1  | 1.34.1 |\n\n\n\n[Click Here To See More Details in Black Duck](https://saastest.app.blackduck.com//api/projects/f2fdbe66-e337-439c-9887-6aa61e1df1bf/versions/c85bf998-3544-44a6-9b11-89efdbdcf326/vulnerability-bom?selectedComponent=8e690edf-dfbd-4be3-85c6-e6ac23234d30)\n\n## Vulnerabilities(BDSA,CVE)\n\n \n| **Severity**  | **Vulnerability** | **Summary** | **Solution Available?** | **Workaround Available?** |\n| :--- |:--- | :--- | :--- | :--- |\n| :yellow_circle: | [BDSA-2025-2192](https://openhub.net/vulnerabilities/bdsa/BDSA-2025-2192) | Kubernetes Vulnerable to Inadvertent Local Repository Access via gitRepo Volume | - | - |\n| :yellow_circle: | [BDSA-2025-9979](https://openhub.net/vulnerabilities/bdsa/BDSA-2025-9979) | Kubernetes Vulnerable to Unauthorized Node Deletion via Improper Handling of 'OwnerReference' in 'admission.go' FIle | Yes | Yes |\n| :large_blue_circle: | [BDSA-2024-10759](https://openhub.net/vulnerabilities/bdsa/BDSA-2024-10759) | Kubernetes Vulnerable to Network Restriction Bypass via Race Condition in 'Namespace Termination' | - | Yes |\n\n\n\n\n## Locations\n- staging/src/k8s.io/code-generator/cmd/applyconfiguration-gen/\n- staging/src/k8s.io/code-generator/cmd/informer-gen/\n- staging/src/k8s.io/code-generator/examples/apiserver/informers/\n- staging/src/k8s.io/code-generator/examples/apiserver/listers/\n- staging/src/k8s.io/code-generator/examples/crd/listers/\n- staging/src/k8s.io/code-generator/examples/HyphenGroup/listers/\n- staging/src/k8s.io/code-generator/examples/MixedCase/listers/\n- staging/src/k8s.io/code-generator/examples/single/listers/\n- staging/src/k8s.io/kube-aggregator/pkg/client/listers/\n- staging/src/k8s.io/kube-aggregator/pkg/controllers/openapi/\n\n\n## References\n* Common Weakness Enumeration: [CWE-20](https://cwe.mitre.org/data/definitions/20.html)\n* Common Weakness Enumeration: [CWE-863](https://cwe.mitre.org/data/definitions/863.html)\n* Common Weakness Enumeration: [CWE-693](https://cwe.mitre.org/data/definitions/693.html)\n* Common Weakness Enumeration: [CWE-362](https://cwe.mitre.org/data/definitions/362.html)\n\n",
+                                "text": "googlecloudplatform kubernetes:v1.32.0-alpha.3 has the following vulnerabilities: [:yellow_circle:] BDSA-2025-2192, [:yellow_circle:] BDSA-2025-9979, [:large_blue_circle:] BDSA-2024-10759"
+                            },
+                            "properties": {
+                                "security-severity": "6.8",
+                                "tags": [
+                                    "security",
+                                    "open_source_analysis",
+                                    "files modified",
+                                    "patch_available",
+                                    "external/cwe/cwe-20",
+                                    "external/cwe/cwe-863",
+                                    "external/cwe/cwe-693",
+                                    "external/cwe/cwe-362"
+                                ]
+                            },
+                            "defaultConfiguration": {
+                                "level": "warning"
+                            }
+                        },
+                        {
                             "id": "docker-buildx 0.17.0-1.fc41",
                             "shortDescription": {
                                 "text": "Exact Directory: docker-buildx 0.17.0-1.fc41"
@@ -17,7 +101,7 @@
                                 "text": "docker-buildx 0.17.0-1.fc41 has the following vulnerabilities: [:yellow_circle:] BDSA-2025-4841"
                             },
                             "help": {
-                                "markdown": "\n## Upgrade Guidance\n\n\n\n| **Affected Dependency**  | **Recommended short term version** | **Recommended long term version** |\n| :--- | :--- | :--- |\n| docker-buildx 0.17.0-1.fc41  | v0.28.0  | v0.28.0 |\n\n\n\n[Click Here To See More Details in Black Duck](https://saastest.app.blackduck.com//api/projects/f2fdbe66-e337-439c-9887-6aa61e1df1bf/versions/c85bf998-3544-44a6-9b11-89efdbdcf326/vulnerability-bom?selectedComponent=4166674f-08f7-4bdb-a2c5-43e67aa7e4ce)\n\n## Vulnerabilities(BDSA,CVE)\n\n \n| **Severity**  | **Vulnerability** | **Summary** | **Solution Available?** | **Workaround Available?** |\n| :--- |:--- | :--- | :--- | :--- |\n| :yellow_circle: | [BDSA-2025-4841](https://openhub.net/vulnerabilities/bdsa/BDSA-2025-4841) | Docker Buildx Vulnerable to Information Disclosure via OpenTelemetry Traces in Cache Backend Configuration | Yes | Yes |\n\n\n\n\n## References\n* Common Weakness Enumeration: [CWE-532](https://cwe.mitre.org/data/definitions/532.html)\n\n",
+                                "markdown": "\n## Upgrade Guidance\n\n\n\n| **Affected Dependency**  | **Recommended short term version** | **Recommended long term version** |\n| :--- | :--- | :--- |\n| docker-buildx 0.17.0-1.fc41  | v0.28.0  | v0.28.0 |\n\n\n\n[Click Here To See More Details in Black Duck](https://saastest.app.blackduck.com//api/projects/f2fdbe66-e337-439c-9887-6aa61e1df1bf/versions/c85bf998-3544-44a6-9b11-89efdbdcf326/vulnerability-bom?selectedComponent=4166674f-08f7-4bdb-a2c5-43e67aa7e4ce)\n\n## Vulnerabilities(BDSA,CVE)\n\n \n| **Severity**  | **Vulnerability** | **Summary** | **Solution Available?** | **Workaround Available?** |\n| :--- |:--- | :--- | :--- | :--- |\n| :yellow_circle: | [BDSA-2025-4841](https://openhub.net/vulnerabilities/bdsa/BDSA-2025-4841) | Docker Buildx Vulnerable to Information Disclosure via OpenTelemetry Traces in Cache Backend Configuration | Yes | Yes |\n\n\n\n\n## Locations\n- vendor/golang.org/x/text/cases/\n\n\n## References\n* Common Weakness Enumeration: [CWE-532](https://cwe.mitre.org/data/definitions/532.html)\n\n",
                                 "text": "docker-buildx 0.17.0-1.fc41 has the following vulnerabilities: [:yellow_circle:] BDSA-2025-4841"
                             },
                             "properties": {
@@ -35,85 +119,34 @@
                             }
                         },
                         {
-                            "id": "go-jose go-jose:v4.0.4",
+                            "id": "grafana 10.2.6-13.el10",
                             "shortDescription": {
-                                "text": "Direct Dependency: go-jose go-jose:v4.0.4"
+                                "text": "Exact Directory: grafana 10.2.6-13.el10"
                             },
                             "fullDescription": {
-                                "text": "go-jose go-jose:v4.0.4 has the following vulnerabilities: [:yellow_circle:] BDSA-2025-1443"
+                                "text": "grafana 10.2.6-13.el10 has the following vulnerabilities: [:orange_circle:] BDSA-2025-4509(CVE-2025-4123), [:orange_circle:] BDSA-2025-7147, [:yellow_circle:] BDSA-2024-5592, [:yellow_circle:] BDSA-2025-4617, [:yellow_circle:] BDSA-2024-6712, [:yellow_circle:] BDSA-2025-0758, [:yellow_circle:] BDSA-2025-3489, [:yellow_circle:] BDSA-2025-5198, [:large_blue_circle:] BDSA-2024-7922(CVE-2024-10452), [:large_blue_circle:] BDSA-2025-5397, [:large_blue_circle:] BDSA-2025-7148"
                             },
                             "help": {
-                                "markdown": "\n## Upgrade Guidance\n\n\n\n| **Affected Dependency**  | **Recommended short term version** | **Recommended long term version** |\n| :--- | :--- | :--- |\n| go-jose go-jose:v4.0.4  | v4.1.2  | v4.1.2 |\n\n\n\n[Click Here To See More Details in Black Duck](https://saastest.app.blackduck.com//api/projects/f2fdbe66-e337-439c-9887-6aa61e1df1bf/versions/c85bf998-3544-44a6-9b11-89efdbdcf326/vulnerability-bom?selectedComponent=4426d432-cf98-4909-a5b4-8075180bcc49)\n\n## Vulnerabilities(BDSA,CVE)\n\n \n| **Severity**  | **Vulnerability** | **Summary** | **Solution Available?** | **Workaround Available?** |\n| :--- |:--- | :--- | :--- | :--- |\n| :yellow_circle: | [BDSA-2025-1443](https://openhub.net/vulnerabilities/bdsa/BDSA-2025-1443) | Go JOSE Vulnerable to Denial of Service via Excessive Memory Consumption in 'strings.Split' Function | Yes | - |\n\n\n\n\n## References\n* Common Weakness Enumeration: [CWE-770](https://cwe.mitre.org/data/definitions/770.html)\n\n",
-                                "text": "go-jose go-jose:v4.0.4 has the following vulnerabilities: [:yellow_circle:] BDSA-2025-1443"
+                                "markdown": "\n## Upgrade Guidance\n\n\n\n| **Affected Dependency**  | **Recommended short term version** | **Recommended long term version** |\n| :--- | :--- | :--- |\n| grafana 10.2.6-13.el10  | Not available  | Not available |\n\n\n\n[Click Here To See More Details in Black Duck](https://saastest.app.blackduck.com//api/projects/f2fdbe66-e337-439c-9887-6aa61e1df1bf/versions/c85bf998-3544-44a6-9b11-89efdbdcf326/vulnerability-bom?selectedComponent=fbe84473-9ad7-4517-bc1a-854263288524)\n\n## Vulnerabilities(BDSA,CVE)\n\n \n| **Severity**  | **Vulnerability** | **Summary** | **Solution Available?** | **Workaround Available?** |\n| :--- |:--- | :--- | :--- | :--- |\n| :orange_circle: | [BDSA-2025-4509](https://openhub.net/vulnerabilities/bdsa/BDSA-2025-4509) ([CVE-2025-4123](https://nvd.nist.gov/vuln/detail/CVE-2025-4123)) | Grafana Vulnerable to Cross-Site Scripting (XSS) via Custom Loaded Frontend Plugin | Yes | - |\n| :orange_circle: | [BDSA-2025-7147](https://openhub.net/vulnerabilities/bdsa/BDSA-2025-7147) | Grafana Vulnerable to Cross-Site Scripting (XSS) via Open Redirect in 'login.go' File | Yes | Yes |\n| :yellow_circle: | [BDSA-2024-5592](https://openhub.net/vulnerabilities/bdsa/BDSA-2024-5592) | Grafana Vulnerable to Access Control Bypass via Plugin Data Sources | Yes | - |\n| :yellow_circle: | [BDSA-2025-4617](https://openhub.net/vulnerabilities/bdsa/BDSA-2025-4617) | Grafana OSS Vulnerable to Server Administrator Account Deletion via Improper Access Control in 'DELETE /api/org/users/' Endpoint | Yes | - |\n| :yellow_circle: | [BDSA-2024-6712](https://openhub.net/vulnerabilities/bdsa/BDSA-2024-6712) | Grafana Vulnerable to Unauthorized Actions via Incorrect Permission Checks | Yes | - |\n| :yellow_circle: | [BDSA-2025-0758](https://openhub.net/vulnerabilities/bdsa/BDSA-2025-0758) | Grafana Vulnerable to Unencrypted Storage of a 'VictoropsIntegration' Related URL | Yes | - |\n| :yellow_circle: | [BDSA-2025-3489](https://openhub.net/vulnerabilities/bdsa/BDSA-2025-3489) | Grafana Vulnerable to Information Disclosure via Authorization Bypass in Data Source Proxy API | Yes | Yes |\n| :yellow_circle: | [BDSA-2025-5198](https://openhub.net/vulnerabilities/bdsa/BDSA-2025-5198) | Grafana Vulnerable to Information Disclosure via DingDing Alerting Integration URL | Yes | - |\n| :large_blue_circle: | [BDSA-2024-7922](https://openhub.net/vulnerabilities/bdsa/BDSA-2024-7922) ([CVE-2024-10452](https://nvd.nist.gov/vuln/detail/CVE-2024-10452)) | Grafana Vulnerable to Improper Authorization via 'RevokeInvite' Function allowing Pending Invite Deletion in Different Organization | Yes | - |\n| :large_blue_circle: | [BDSA-2025-5397](https://openhub.net/vulnerabilities/bdsa/BDSA-2025-5397) | Grafana on Chromium Browsers Vulnerable to Denial-of-Service (DoS) via Excessively Long Titles | Yes | - |\n| :large_blue_circle: | [BDSA-2025-7148](https://openhub.net/vulnerabilities/bdsa/BDSA-2025-7148) | Grafana Vulnerable to Open Redirect via Lack of Validation in 'org_redirect.go' File | Yes | Yes |\n\n\n\n\n## Locations\n- staging/src/k8s.io/apiserver/pkg/admission/plugin/webhook/config/apis/webhookadmission/v1/\n- staging/src/k8s.io/apiserver/pkg/admission/plugin/webhook/config/apis/webhookadmission/v1alpha1/\n- vendor/github.com/NYTimes/\n- vendor/golang.org/x/text/feature/\n- vendor/golang.org/x/text/message/catalog/\n- vendor/gopkg.in/go-jose/go-jose.v2/json/\n- vendor/gopkg.in/natefinch/\n- vendor/k8s.io/kube-openapi/pkg/builder/\n- vendor/k8s.io/kube-openapi/pkg/validation/errors/\n- vendor/k8s.io/utils/internal/\n\n\n## References\n* Common Weakness Enumeration: [CWE-79](https://cwe.mitre.org/data/definitions/79.html)\n* Common Weakness Enumeration: [CWE-601](https://cwe.mitre.org/data/definitions/601.html)\n* Common Weakness Enumeration: [CWE-22](https://cwe.mitre.org/data/definitions/22.html)\n* Common Weakness Enumeration: [CWE-266](https://cwe.mitre.org/data/definitions/266.html)\n* Common Weakness Enumeration: [CWE-284](https://cwe.mitre.org/data/definitions/284.html)\n* Common Weakness Enumeration: [CWE-276](https://cwe.mitre.org/data/definitions/276.html)\n* Common Weakness Enumeration: [CWE-311](https://cwe.mitre.org/data/definitions/311.html)\n* Common Weakness Enumeration: [CWE-200](https://cwe.mitre.org/data/definitions/200.html)\n* Common Weakness Enumeration: [CWE-285](https://cwe.mitre.org/data/definitions/285.html)\n* Common Weakness Enumeration: [CWE-639](https://cwe.mitre.org/data/definitions/639.html)\n* Common Weakness Enumeration: [CWE-20](https://cwe.mitre.org/data/definitions/20.html)\n\n",
+                                "text": "grafana 10.2.6-13.el10 has the following vulnerabilities: [:orange_circle:] BDSA-2025-4509(CVE-2025-4123), [:orange_circle:] BDSA-2025-7147, [:yellow_circle:] BDSA-2024-5592, [:yellow_circle:] BDSA-2025-4617, [:yellow_circle:] BDSA-2024-6712, [:yellow_circle:] BDSA-2025-0758, [:yellow_circle:] BDSA-2025-3489, [:yellow_circle:] BDSA-2025-5198, [:large_blue_circle:] BDSA-2024-7922(CVE-2024-10452), [:large_blue_circle:] BDSA-2025-5397, [:large_blue_circle:] BDSA-2025-7148"
                             },
                             "properties": {
-                                "security-severity": "6.8",
-                                "tags": [
-                                    "security",
-                                    "open_source_analysis",
-                                    "direct dependency",
-                                    "patch_available",
-                                    "external/cwe/cwe-770"
-                                ]
-                            },
-                            "defaultConfiguration": {
-                                "level": "warning"
-                            }
-                        },
-                        {
-                            "id": "containerd 2.0.2-2.fc42",
-                            "shortDescription": {
-                                "text": "Exact Directory: containerd 2.0.2-2.fc42"
-                            },
-                            "fullDescription": {
-                                "text": "containerd 2.0.2-2.fc42 has the following vulnerabilities: [:yellow_circle:] BDSA-2025-4499, [:yellow_circle:] BDSA-2025-2173"
-                            },
-                            "help": {
-                                "markdown": "\n## Upgrade Guidance\n\n\n\n| **Affected Dependency**  | **Recommended short term version** | **Recommended long term version** |\n| :--- | :--- | :--- |\n| containerd 2.0.2-2.fc42  | v2.1.4  | v2.1.4 |\n\n\n\n[Click Here To See More Details in Black Duck](https://saastest.app.blackduck.com//api/projects/f2fdbe66-e337-439c-9887-6aa61e1df1bf/versions/c85bf998-3544-44a6-9b11-89efdbdcf326/vulnerability-bom?selectedComponent=3c308517-da32-4545-9e6d-ff8f48f8cde4)\n\n## Vulnerabilities(BDSA,CVE)\n\n \n| **Severity**  | **Vulnerability** | **Summary** | **Solution Available?** | **Workaround Available?** |\n| :--- |:--- | :--- | :--- | :--- |\n| :yellow_circle: | [BDSA-2025-4499](https://openhub.net/vulnerabilities/bdsa/BDSA-2025-4499) | Containerd Vulnerable to Denial-of-Service (DoS) via Incorrect Cgroup Hierarchy Assignment in 'CRI' Component | Yes | Yes |\n| :yellow_circle: | [BDSA-2025-2173](https://openhub.net/vulnerabilities/bdsa/BDSA-2025-2173) | containerd has an integer overflow in User ID handling | Yes | Yes |\n\n\n\n\n## References\n* Common Weakness Enumeration: [CWE-266](https://cwe.mitre.org/data/definitions/266.html)\n* Common Weakness Enumeration: [CWE-190](https://cwe.mitre.org/data/definitions/190.html)\n\n",
-                                "text": "containerd 2.0.2-2.fc42 has the following vulnerabilities: [:yellow_circle:] BDSA-2025-4499, [:yellow_circle:] BDSA-2025-2173"
-                            },
-                            "properties": {
-                                "security-severity": "6.8",
+                                "security-severity": "8.9",
                                 "tags": [
                                     "security",
                                     "open_source_analysis",
                                     "exact directory",
-                                    "patch_available",
+                                    "external/cwe/cwe-79",
+                                    "external/cwe/cwe-601",
+                                    "external/cwe/cwe-22",
                                     "external/cwe/cwe-266",
-                                    "external/cwe/cwe-190"
+                                    "external/cwe/cwe-284",
+                                    "external/cwe/cwe-276",
+                                    "external/cwe/cwe-311"
                                 ]
                             },
                             "defaultConfiguration": {
-                                "level": "warning"
-                            }
-                        },
-                        {
-                            "id": "googlecloudplatform kubernetes:v1.33.0-beta.0",
-                            "shortDescription": {
-                                "text": "Exact Directory: googlecloudplatform kubernetes:v1.33.0-beta.0"
-                            },
-                            "fullDescription": {
-                                "text": "googlecloudplatform kubernetes:v1.33.0-beta.0 has the following vulnerabilities: [:yellow_circle:] BDSA-2025-9979, [:yellow_circle:] BDSA-2025-2192, [:large_blue_circle:] BDSA-2024-10759"
-                            },
-                            "help": {
-                                "markdown": "\n## Upgrade Guidance\n\n\n\n| **Affected Dependency**  | **Recommended short term version** | **Recommended long term version** |\n| :--- | :--- | :--- |\n| googlecloudplatform kubernetes:v1.33.0-beta.0  | 1.34.1  | 1.34.1 |\n\n\n\n[Click Here To See More Details in Black Duck](https://saastest.app.blackduck.com//api/projects/f2fdbe66-e337-439c-9887-6aa61e1df1bf/versions/c85bf998-3544-44a6-9b11-89efdbdcf326/vulnerability-bom?selectedComponent=5b3f91b1-6b50-4e93-8021-fe95232930fc)\n\n## Vulnerabilities(BDSA,CVE)\n\n \n| **Severity**  | **Vulnerability** | **Summary** | **Solution Available?** | **Workaround Available?** |\n| :--- |:--- | :--- | :--- | :--- |\n| :yellow_circle: | [BDSA-2025-9979](https://openhub.net/vulnerabilities/bdsa/BDSA-2025-9979) | Kubernetes Vulnerable to Unauthorized Node Deletion via Improper Handling of 'OwnerReference' in 'admission.go' FIle | Yes | Yes |\n| :yellow_circle: | [BDSA-2025-2192](https://openhub.net/vulnerabilities/bdsa/BDSA-2025-2192) | Kubernetes Vulnerable to Inadvertent Local Repository Access via gitRepo Volume | - | - |\n| :large_blue_circle: | [BDSA-2024-10759](https://openhub.net/vulnerabilities/bdsa/BDSA-2024-10759) | Kubernetes Vulnerable to Network Restriction Bypass via Race Condition in 'Namespace Termination' | - | Yes |\n\n\n\n\n## References\n* Common Weakness Enumeration: [CWE-863](https://cwe.mitre.org/data/definitions/863.html)\n* Common Weakness Enumeration: [CWE-20](https://cwe.mitre.org/data/definitions/20.html)\n* Common Weakness Enumeration: [CWE-693](https://cwe.mitre.org/data/definitions/693.html)\n* Common Weakness Enumeration: [CWE-362](https://cwe.mitre.org/data/definitions/362.html)\n\n",
-                                "text": "googlecloudplatform kubernetes:v1.33.0-beta.0 has the following vulnerabilities: [:yellow_circle:] BDSA-2025-9979, [:yellow_circle:] BDSA-2025-2192, [:large_blue_circle:] BDSA-2024-10759"
-                            },
-                            "properties": {
-                                "security-severity": "6.8",
-                                "tags": [
-                                    "security",
-                                    "open_source_analysis",
-                                    "exact directory",
-                                    "patch_available",
-                                    "external/cwe/cwe-863",
-                                    "external/cwe/cwe-20",
-                                    "external/cwe/cwe-693",
-                                    "external/cwe/cwe-362"
-                                ]
-                            },
-                            "defaultConfiguration": {
-                                "level": "warning"
+                                "level": "error"
                             }
                         },
                         {
@@ -125,7 +158,7 @@
                                 "text": "googlecloudplatform kubernetes:v1.33.0-alpha.1 has the following vulnerabilities: [:yellow_circle:] BDSA-2025-9979, [:yellow_circle:] BDSA-2025-2192, [:large_blue_circle:] BDSA-2024-10759"
                             },
                             "help": {
-                                "markdown": "\n## Upgrade Guidance\n\n\n\n| **Affected Dependency**  | **Recommended short term version** | **Recommended long term version** |\n| :--- | :--- | :--- |\n| googlecloudplatform kubernetes:v1.33.0-alpha.1  | 1.34.1  | 1.34.1 |\n\n\n\n[Click Here To See More Details in Black Duck](https://saastest.app.blackduck.com//api/projects/f2fdbe66-e337-439c-9887-6aa61e1df1bf/versions/c85bf998-3544-44a6-9b11-89efdbdcf326/vulnerability-bom?selectedComponent=7bfc1d7c-a1ac-43f8-83a7-634c8ed51a9e)\n\n## Vulnerabilities(BDSA,CVE)\n\n \n| **Severity**  | **Vulnerability** | **Summary** | **Solution Available?** | **Workaround Available?** |\n| :--- |:--- | :--- | :--- | :--- |\n| :yellow_circle: | [BDSA-2025-9979](https://openhub.net/vulnerabilities/bdsa/BDSA-2025-9979) | Kubernetes Vulnerable to Unauthorized Node Deletion via Improper Handling of 'OwnerReference' in 'admission.go' FIle | Yes | Yes |\n| :yellow_circle: | [BDSA-2025-2192](https://openhub.net/vulnerabilities/bdsa/BDSA-2025-2192) | Kubernetes Vulnerable to Inadvertent Local Repository Access via gitRepo Volume | - | - |\n| :large_blue_circle: | [BDSA-2024-10759](https://openhub.net/vulnerabilities/bdsa/BDSA-2024-10759) | Kubernetes Vulnerable to Network Restriction Bypass via Race Condition in 'Namespace Termination' | - | Yes |\n\n\n\n\n## References\n* Common Weakness Enumeration: [CWE-863](https://cwe.mitre.org/data/definitions/863.html)\n* Common Weakness Enumeration: [CWE-20](https://cwe.mitre.org/data/definitions/20.html)\n* Common Weakness Enumeration: [CWE-693](https://cwe.mitre.org/data/definitions/693.html)\n* Common Weakness Enumeration: [CWE-362](https://cwe.mitre.org/data/definitions/362.html)\n\n",
+                                "markdown": "\n## Upgrade Guidance\n\n\n\n| **Affected Dependency**  | **Recommended short term version** | **Recommended long term version** |\n| :--- | :--- | :--- |\n| googlecloudplatform kubernetes:v1.33.0-alpha.1  | 1.34.1  | 1.34.1 |\n\n\n\n[Click Here To See More Details in Black Duck](https://saastest.app.blackduck.com//api/projects/f2fdbe66-e337-439c-9887-6aa61e1df1bf/versions/c85bf998-3544-44a6-9b11-89efdbdcf326/vulnerability-bom?selectedComponent=7bfc1d7c-a1ac-43f8-83a7-634c8ed51a9e)\n\n## Vulnerabilities(BDSA,CVE)\n\n \n| **Severity**  | **Vulnerability** | **Summary** | **Solution Available?** | **Workaround Available?** |\n| :--- |:--- | :--- | :--- | :--- |\n| :yellow_circle: | [BDSA-2025-9979](https://openhub.net/vulnerabilities/bdsa/BDSA-2025-9979) | Kubernetes Vulnerable to Unauthorized Node Deletion via Improper Handling of 'OwnerReference' in 'admission.go' FIle | Yes | Yes |\n| :yellow_circle: | [BDSA-2025-2192](https://openhub.net/vulnerabilities/bdsa/BDSA-2025-2192) | Kubernetes Vulnerable to Inadvertent Local Repository Access via gitRepo Volume | - | - |\n| :large_blue_circle: | [BDSA-2024-10759](https://openhub.net/vulnerabilities/bdsa/BDSA-2024-10759) | Kubernetes Vulnerable to Network Restriction Bypass via Race Condition in 'Namespace Termination' | - | Yes |\n\n\n\n\n## Locations\n- staging/src/k8s.io/csi-translation-lib/plugins/\n\n\n## References\n* Common Weakness Enumeration: [CWE-863](https://cwe.mitre.org/data/definitions/863.html)\n* Common Weakness Enumeration: [CWE-20](https://cwe.mitre.org/data/definitions/20.html)\n* Common Weakness Enumeration: [CWE-693](https://cwe.mitre.org/data/definitions/693.html)\n* Common Weakness Enumeration: [CWE-362](https://cwe.mitre.org/data/definitions/362.html)\n\n",
                                 "text": "googlecloudplatform kubernetes:v1.33.0-alpha.1 has the following vulnerabilities: [:yellow_circle:] BDSA-2025-9979, [:yellow_circle:] BDSA-2025-2192, [:large_blue_circle:] BDSA-2024-10759"
                             },
                             "properties": {
@@ -146,28 +179,28 @@
                             }
                         },
                         {
-                            "id": "kubernetes1.33 1.33.0-1.fc42",
+                            "id": "googlecloudplatform kubernetes:v1.33.0-beta.0",
                             "shortDescription": {
-                                "text": "Exact Directory: kubernetes1.33 1.33.0-1.fc42"
+                                "text": "Files Modified: googlecloudplatform kubernetes:v1.33.0-beta.0"
                             },
                             "fullDescription": {
-                                "text": "kubernetes1.33 1.33.0-1.fc42 has the following vulnerabilities: [:yellow_circle:] BDSA-2025-9979, [:large_blue_circle:] BDSA-2024-10759, [:large_blue_circle:] BDSA-2025-5493"
+                                "text": "googlecloudplatform kubernetes:v1.33.0-beta.0 has the following vulnerabilities: [:yellow_circle:] BDSA-2025-2192, [:yellow_circle:] BDSA-2025-9979, [:large_blue_circle:] BDSA-2024-10759"
                             },
                             "help": {
-                                "markdown": "\n## Upgrade Guidance\n\n\n\n| **Affected Dependency**  | **Recommended short term version** | **Recommended long term version** |\n| :--- | :--- | :--- |\n| kubernetes1.33 1.33.0-1.fc42  | 1.33.5  | 1.33.5 |\n\n\n\n[Click Here To See More Details in Black Duck](https://saastest.app.blackduck.com//api/projects/f2fdbe66-e337-439c-9887-6aa61e1df1bf/versions/c85bf998-3544-44a6-9b11-89efdbdcf326/vulnerability-bom?selectedComponent=6c0dbb25-e9b9-4bf8-80d9-7a2c375611ed)\n\n## Vulnerabilities(BDSA,CVE)\n\n \n| **Severity**  | **Vulnerability** | **Summary** | **Solution Available?** | **Workaround Available?** |\n| :--- |:--- | :--- | :--- | :--- |\n| :yellow_circle: | [BDSA-2025-9979](https://openhub.net/vulnerabilities/bdsa/BDSA-2025-9979) | Kubernetes Vulnerable to Unauthorized Node Deletion via Improper Handling of 'OwnerReference' in 'admission.go' FIle | Yes | Yes |\n| :large_blue_circle: | [BDSA-2024-10759](https://openhub.net/vulnerabilities/bdsa/BDSA-2024-10759) | Kubernetes Vulnerable to Network Restriction Bypass via Race Condition in 'Namespace Termination' | - | Yes |\n| :large_blue_circle: | [BDSA-2025-5493](https://openhub.net/vulnerabilities/bdsa/BDSA-2025-5493) | Kubernetes NodeRestriction Admission Controller Vulnerable to Privilege Escalation via Unauthorized Dynamic Resource Access in 'DynamicResourceAllocation' Feature | Yes | - |\n\n\n\n\n## References\n* Common Weakness Enumeration: [CWE-863](https://cwe.mitre.org/data/definitions/863.html)\n* Common Weakness Enumeration: [CWE-693](https://cwe.mitre.org/data/definitions/693.html)\n* Common Weakness Enumeration: [CWE-362](https://cwe.mitre.org/data/definitions/362.html)\n* Common Weakness Enumeration: [CWE-20](https://cwe.mitre.org/data/definitions/20.html)\n\n",
-                                "text": "kubernetes1.33 1.33.0-1.fc42 has the following vulnerabilities: [:yellow_circle:] BDSA-2025-9979, [:large_blue_circle:] BDSA-2024-10759, [:large_blue_circle:] BDSA-2025-5493"
+                                "markdown": "\n## Upgrade Guidance\n\n\n\n| **Affected Dependency**  | **Recommended short term version** | **Recommended long term version** |\n| :--- | :--- | :--- |\n| googlecloudplatform kubernetes:v1.33.0-beta.0  | 1.34.1  | 1.34.1 |\n\n\n\n[Click Here To See More Details in Black Duck](https://saastest.app.blackduck.com//api/projects/f2fdbe66-e337-439c-9887-6aa61e1df1bf/versions/c85bf998-3544-44a6-9b11-89efdbdcf326/vulnerability-bom?selectedComponent=5b3f91b1-6b50-4e93-8021-fe95232930fc)\n\n## Vulnerabilities(BDSA,CVE)\n\n \n| **Severity**  | **Vulnerability** | **Summary** | **Solution Available?** | **Workaround Available?** |\n| :--- |:--- | :--- | :--- | :--- |\n| :yellow_circle: | [BDSA-2025-2192](https://openhub.net/vulnerabilities/bdsa/BDSA-2025-2192) | Kubernetes Vulnerable to Inadvertent Local Repository Access via gitRepo Volume | - | - |\n| :yellow_circle: | [BDSA-2025-9979](https://openhub.net/vulnerabilities/bdsa/BDSA-2025-9979) | Kubernetes Vulnerable to Unauthorized Node Deletion via Improper Handling of 'OwnerReference' in 'admission.go' FIle | Yes | Yes |\n| :large_blue_circle: | [BDSA-2024-10759](https://openhub.net/vulnerabilities/bdsa/BDSA-2024-10759) | Kubernetes Vulnerable to Network Restriction Bypass via Race Condition in 'Namespace Termination' | - | Yes |\n\n\n\n\n## Locations\n- staging/src/k8s.io/api/admission/\n- staging/src/k8s.io/api/apidiscovery/\n- staging/src/k8s.io/api/apiserverinternal/\n- staging/src/k8s.io/api/authentication/\n- staging/src/k8s.io/api/authorization/v1beta1/\n- staging/src/k8s.io/api/autoscaling/v2beta1/\n- staging/src/k8s.io/api/autoscaling/v2beta2/\n- staging/src/k8s.io/api/batch/v1beta1/\n- staging/src/k8s.io/api/events/\n- staging/src/k8s.io/apiextensions-apiserver/pkg/client/clientset/clientset/typed/\n\n\n## References\n* Common Weakness Enumeration: [CWE-20](https://cwe.mitre.org/data/definitions/20.html)\n* Common Weakness Enumeration: [CWE-863](https://cwe.mitre.org/data/definitions/863.html)\n* Common Weakness Enumeration: [CWE-693](https://cwe.mitre.org/data/definitions/693.html)\n* Common Weakness Enumeration: [CWE-362](https://cwe.mitre.org/data/definitions/362.html)\n\n",
+                                "text": "googlecloudplatform kubernetes:v1.33.0-beta.0 has the following vulnerabilities: [:yellow_circle:] BDSA-2025-2192, [:yellow_circle:] BDSA-2025-9979, [:large_blue_circle:] BDSA-2024-10759"
                             },
                             "properties": {
                                 "security-severity": "6.8",
                                 "tags": [
                                     "security",
                                     "open_source_analysis",
-                                    "exact directory",
+                                    "files modified",
                                     "patch_available",
+                                    "external/cwe/cwe-20",
                                     "external/cwe/cwe-863",
                                     "external/cwe/cwe-693",
-                                    "external/cwe/cwe-362",
-                                    "external/cwe/cwe-20"
+                                    "external/cwe/cwe-362"
                                 ]
                             },
                             "defaultConfiguration": {
@@ -183,7 +216,7 @@
                                 "text": "go-jose go-jose:v2.6.3 has the following vulnerabilities: [:yellow_circle:] BDSA-2023-3257, [:yellow_circle:] BDSA-2025-1443"
                             },
                             "help": {
-                                "markdown": "\n## Upgrade Guidance\n\n\n\n| **Affected Dependency**  | **Recommended short term version** | **Recommended long term version** |\n| :--- | :--- | :--- |\n| go-jose go-jose:v2.6.3  | Not available  | v4.1.2 |\n\n\n\n[Click Here To See More Details in Black Duck](https://saastest.app.blackduck.com//api/projects/f2fdbe66-e337-439c-9887-6aa61e1df1bf/versions/c85bf998-3544-44a6-9b11-89efdbdcf326/vulnerability-bom?selectedComponent=7f0f93a6-ddc0-45ca-900e-158934bb6217)\n\n## Vulnerabilities(BDSA,CVE)\n\n \n| **Severity**  | **Vulnerability** | **Summary** | **Solution Available?** | **Workaround Available?** |\n| :--- |:--- | :--- | :--- | :--- |\n| :yellow_circle: | [BDSA-2023-3257](https://openhub.net/vulnerabilities/bdsa/BDSA-2023-3257) | go-jose Vulnerable to Denial-of-Service (DoS) via Decryption of Malicious PBES2 JWE Objects | Yes | - |\n| :yellow_circle: | [BDSA-2025-1443](https://openhub.net/vulnerabilities/bdsa/BDSA-2025-1443) | Go JOSE Vulnerable to Denial of Service via Excessive Memory Consumption in 'strings.Split' Function | Yes | - |\n\n\n\n\n## References\n* Common Weakness Enumeration: [CWE-400](https://cwe.mitre.org/data/definitions/400.html)\n* Common Weakness Enumeration: [CWE-770](https://cwe.mitre.org/data/definitions/770.html)\n\n",
+                                "markdown": "\n## Upgrade Guidance\n\n\n\n| **Affected Dependency**  | **Recommended short term version** | **Recommended long term version** |\n| :--- | :--- | :--- |\n| go-jose go-jose:v2.6.3  | Not available  | v4.1.2 |\n\n\n\n[Click Here To See More Details in Black Duck](https://saastest.app.blackduck.com//api/projects/f2fdbe66-e337-439c-9887-6aa61e1df1bf/versions/c85bf998-3544-44a6-9b11-89efdbdcf326/vulnerability-bom?selectedComponent=7f0f93a6-ddc0-45ca-900e-158934bb6217)\n\n## Vulnerabilities(BDSA,CVE)\n\n \n| **Severity**  | **Vulnerability** | **Summary** | **Solution Available?** | **Workaround Available?** |\n| :--- |:--- | :--- | :--- | :--- |\n| :yellow_circle: | [BDSA-2023-3257](https://openhub.net/vulnerabilities/bdsa/BDSA-2023-3257) | go-jose Vulnerable to Denial-of-Service (DoS) via Decryption of Malicious PBES2 JWE Objects | Yes | - |\n| :yellow_circle: | [BDSA-2025-1443](https://openhub.net/vulnerabilities/bdsa/BDSA-2025-1443) | Go JOSE Vulnerable to Denial of Service via Excessive Memory Consumption in 'strings.Split' Function | Yes | - |\n\n\n\n\n\n\n## References\n* Common Weakness Enumeration: [CWE-400](https://cwe.mitre.org/data/definitions/400.html)\n* Common Weakness Enumeration: [CWE-770](https://cwe.mitre.org/data/definitions/770.html)\n\n",
                                 "text": "go-jose go-jose:v2.6.3 has the following vulnerabilities: [:yellow_circle:] BDSA-2023-3257, [:yellow_circle:] BDSA-2025-1443"
                             },
                             "properties": {
@@ -202,47 +235,16 @@
                             }
                         },
                         {
-                            "id": "grafana 10.2.6-13.el10",
+                            "id": "containerd 2.0.2-2.fc42",
                             "shortDescription": {
-                                "text": "Exact Directory: grafana 10.2.6-13.el10"
+                                "text": "Exact Directory: containerd 2.0.2-2.fc42"
                             },
                             "fullDescription": {
-                                "text": "grafana 10.2.6-13.el10 has the following vulnerabilities: [:orange_circle:] BDSA-2025-4509(CVE-2025-4123), [:orange_circle:] BDSA-2025-7147, [:yellow_circle:] BDSA-2024-5592, [:yellow_circle:] BDSA-2025-4617, [:yellow_circle:] BDSA-2025-5198, [:yellow_circle:] BDSA-2024-6712, [:yellow_circle:] BDSA-2025-0758, [:yellow_circle:] BDSA-2025-3489, [:large_blue_circle:] BDSA-2025-5397, [:large_blue_circle:] BDSA-2025-7148, [:large_blue_circle:] BDSA-2024-7922(CVE-2024-10452)"
+                                "text": "containerd 2.0.2-2.fc42 has the following vulnerabilities: [:yellow_circle:] BDSA-2025-2173, [:yellow_circle:] BDSA-2025-4499(CVE-2025-47291)"
                             },
                             "help": {
-                                "markdown": "\n## Upgrade Guidance\n\n\n\n| **Affected Dependency**  | **Recommended short term version** | **Recommended long term version** |\n| :--- | :--- | :--- |\n| grafana 10.2.6-13.el10  | Not available  | Not available |\n\n\n\n[Click Here To See More Details in Black Duck](https://saastest.app.blackduck.com//api/projects/f2fdbe66-e337-439c-9887-6aa61e1df1bf/versions/c85bf998-3544-44a6-9b11-89efdbdcf326/vulnerability-bom?selectedComponent=fbe84473-9ad7-4517-bc1a-854263288524)\n\n## Vulnerabilities(BDSA,CVE)\n\n \n| **Severity**  | **Vulnerability** | **Summary** | **Solution Available?** | **Workaround Available?** |\n| :--- |:--- | :--- | :--- | :--- |\n| :orange_circle: | [BDSA-2025-4509](https://openhub.net/vulnerabilities/bdsa/BDSA-2025-4509) ([CVE-2025-4123](https://nvd.nist.gov/vuln/detail/CVE-2025-4123)) | Grafana Vulnerable to Cross-Site Scripting (XSS) via Custom Loaded Frontend Plugin | Yes | - |\n| :orange_circle: | [BDSA-2025-7147](https://openhub.net/vulnerabilities/bdsa/BDSA-2025-7147) | Grafana Vulnerable to Cross-Site Scripting (XSS) via Open Redirect in 'login.go' File | Yes | Yes |\n| :yellow_circle: | [BDSA-2024-5592](https://openhub.net/vulnerabilities/bdsa/BDSA-2024-5592) | Grafana Vulnerable to Access Control Bypass via Plugin Data Sources | Yes | - |\n| :yellow_circle: | [BDSA-2025-4617](https://openhub.net/vulnerabilities/bdsa/BDSA-2025-4617) | Grafana OSS Vulnerable to Server Administrator Account Deletion via Improper Access Control in 'DELETE /api/org/users/' Endpoint | Yes | - |\n| :yellow_circle: | [BDSA-2025-5198](https://openhub.net/vulnerabilities/bdsa/BDSA-2025-5198) | Grafana Vulnerable to Information Disclosure via DingDing Alerting Integration URL | Yes | - |\n| :yellow_circle: | [BDSA-2024-6712](https://openhub.net/vulnerabilities/bdsa/BDSA-2024-6712) | Grafana Vulnerable to Unauthorized Actions via Incorrect Permission Checks | Yes | - |\n| :yellow_circle: | [BDSA-2025-0758](https://openhub.net/vulnerabilities/bdsa/BDSA-2025-0758) | Grafana Vulnerable to Unencrypted Storage of a 'VictoropsIntegration' Related URL | Yes | - |\n| :yellow_circle: | [BDSA-2025-3489](https://openhub.net/vulnerabilities/bdsa/BDSA-2025-3489) | Grafana Vulnerable to Information Disclosure via Authorization Bypass in Data Source Proxy API | Yes | Yes |\n| :large_blue_circle: | [BDSA-2025-5397](https://openhub.net/vulnerabilities/bdsa/BDSA-2025-5397) | Grafana on Chromium Browsers Vulnerable to Denial-of-Service (DoS) via Excessively Long Titles | Yes | - |\n| :large_blue_circle: | [BDSA-2025-7148](https://openhub.net/vulnerabilities/bdsa/BDSA-2025-7148) | Grafana Vulnerable to Open Redirect via Lack of Validation in 'org_redirect.go' File | Yes | Yes |\n| :large_blue_circle: | [BDSA-2024-7922](https://openhub.net/vulnerabilities/bdsa/BDSA-2024-7922) ([CVE-2024-10452](https://nvd.nist.gov/vuln/detail/CVE-2024-10452)) | Grafana Vulnerable to Improper Authorization via 'RevokeInvite' Function allowing Pending Invite Deletion in Different Organization | Yes | - |\n\n\n\n\n## References\n* Common Weakness Enumeration: [CWE-79](https://cwe.mitre.org/data/definitions/79.html)\n* Common Weakness Enumeration: [CWE-601](https://cwe.mitre.org/data/definitions/601.html)\n* Common Weakness Enumeration: [CWE-22](https://cwe.mitre.org/data/definitions/22.html)\n* Common Weakness Enumeration: [CWE-266](https://cwe.mitre.org/data/definitions/266.html)\n* Common Weakness Enumeration: [CWE-284](https://cwe.mitre.org/data/definitions/284.html)\n* Common Weakness Enumeration: [CWE-200](https://cwe.mitre.org/data/definitions/200.html)\n* Common Weakness Enumeration: [CWE-276](https://cwe.mitre.org/data/definitions/276.html)\n* Common Weakness Enumeration: [CWE-311](https://cwe.mitre.org/data/definitions/311.html)\n* Common Weakness Enumeration: [CWE-285](https://cwe.mitre.org/data/definitions/285.html)\n* Common Weakness Enumeration: [CWE-20](https://cwe.mitre.org/data/definitions/20.html)\n* Common Weakness Enumeration: [CWE-639](https://cwe.mitre.org/data/definitions/639.html)\n\n",
-                                "text": "grafana 10.2.6-13.el10 has the following vulnerabilities: [:orange_circle:] BDSA-2025-4509(CVE-2025-4123), [:orange_circle:] BDSA-2025-7147, [:yellow_circle:] BDSA-2024-5592, [:yellow_circle:] BDSA-2025-4617, [:yellow_circle:] BDSA-2025-5198, [:yellow_circle:] BDSA-2024-6712, [:yellow_circle:] BDSA-2025-0758, [:yellow_circle:] BDSA-2025-3489, [:large_blue_circle:] BDSA-2025-5397, [:large_blue_circle:] BDSA-2025-7148, [:large_blue_circle:] BDSA-2024-7922(CVE-2024-10452)"
-                            },
-                            "properties": {
-                                "security-severity": "8.9",
-                                "tags": [
-                                    "security",
-                                    "open_source_analysis",
-                                    "exact directory",
-                                    "external/cwe/cwe-79",
-                                    "external/cwe/cwe-601",
-                                    "external/cwe/cwe-22",
-                                    "external/cwe/cwe-266",
-                                    "external/cwe/cwe-284",
-                                    "external/cwe/cwe-200",
-                                    "external/cwe/cwe-276"
-                                ]
-                            },
-                            "defaultConfiguration": {
-                                "level": "error"
-                            }
-                        },
-                        {
-                            "id": "googlecloudplatform kubernetes:v1.32.0-alpha.3",
-                            "shortDescription": {
-                                "text": "Exact Directory: googlecloudplatform kubernetes:v1.32.0-alpha.3"
-                            },
-                            "fullDescription": {
-                                "text": "googlecloudplatform kubernetes:v1.32.0-alpha.3 has the following vulnerabilities: [:yellow_circle:] BDSA-2025-2192, [:yellow_circle:] BDSA-2025-9979, [:large_blue_circle:] BDSA-2024-10759"
-                            },
-                            "help": {
-                                "markdown": "\n## Upgrade Guidance\n\n\n\n| **Affected Dependency**  | **Recommended short term version** | **Recommended long term version** |\n| :--- | :--- | :--- |\n| googlecloudplatform kubernetes:v1.32.0-alpha.3  | 1.34.1  | 1.34.1 |\n\n\n\n[Click Here To See More Details in Black Duck](https://saastest.app.blackduck.com//api/projects/f2fdbe66-e337-439c-9887-6aa61e1df1bf/versions/c85bf998-3544-44a6-9b11-89efdbdcf326/vulnerability-bom?selectedComponent=8e690edf-dfbd-4be3-85c6-e6ac23234d30)\n\n## Vulnerabilities(BDSA,CVE)\n\n \n| **Severity**  | **Vulnerability** | **Summary** | **Solution Available?** | **Workaround Available?** |\n| :--- |:--- | :--- | :--- | :--- |\n| :yellow_circle: | [BDSA-2025-2192](https://openhub.net/vulnerabilities/bdsa/BDSA-2025-2192) | Kubernetes Vulnerable to Inadvertent Local Repository Access via gitRepo Volume | - | - |\n| :yellow_circle: | [BDSA-2025-9979](https://openhub.net/vulnerabilities/bdsa/BDSA-2025-9979) | Kubernetes Vulnerable to Unauthorized Node Deletion via Improper Handling of 'OwnerReference' in 'admission.go' FIle | Yes | Yes |\n| :large_blue_circle: | [BDSA-2024-10759](https://openhub.net/vulnerabilities/bdsa/BDSA-2024-10759) | Kubernetes Vulnerable to Network Restriction Bypass via Race Condition in 'Namespace Termination' | - | Yes |\n\n\n\n\n## References\n* Common Weakness Enumeration: [CWE-20](https://cwe.mitre.org/data/definitions/20.html)\n* Common Weakness Enumeration: [CWE-863](https://cwe.mitre.org/data/definitions/863.html)\n* Common Weakness Enumeration: [CWE-693](https://cwe.mitre.org/data/definitions/693.html)\n* Common Weakness Enumeration: [CWE-362](https://cwe.mitre.org/data/definitions/362.html)\n\n",
-                                "text": "googlecloudplatform kubernetes:v1.32.0-alpha.3 has the following vulnerabilities: [:yellow_circle:] BDSA-2025-2192, [:yellow_circle:] BDSA-2025-9979, [:large_blue_circle:] BDSA-2024-10759"
+                                "markdown": "\n## Upgrade Guidance\n\n\n\n| **Affected Dependency**  | **Recommended short term version** | **Recommended long term version** |\n| :--- | :--- | :--- |\n| containerd 2.0.2-2.fc42  | v2.1.4  | v2.1.4 |\n\n\n\n[Click Here To See More Details in Black Duck](https://saastest.app.blackduck.com//api/projects/f2fdbe66-e337-439c-9887-6aa61e1df1bf/versions/c85bf998-3544-44a6-9b11-89efdbdcf326/vulnerability-bom?selectedComponent=3c308517-da32-4545-9e6d-ff8f48f8cde4)\n\n## Vulnerabilities(BDSA,CVE)\n\n \n| **Severity**  | **Vulnerability** | **Summary** | **Solution Available?** | **Workaround Available?** |\n| :--- |:--- | :--- | :--- | :--- |\n| :yellow_circle: | [BDSA-2025-2173](https://openhub.net/vulnerabilities/bdsa/BDSA-2025-2173) | containerd has an integer overflow in User ID handling | Yes | Yes |\n| :yellow_circle: | [BDSA-2025-4499](https://openhub.net/vulnerabilities/bdsa/BDSA-2025-4499) ([CVE-2025-47291](https://nvd.nist.gov/vuln/detail/CVE-2025-47291)) | Containerd Vulnerable to Denial-of-Service (DoS) via Incorrect Cgroup Hierarchy Assignment in 'CRI' Component | Yes | Yes |\n\n\n\n\n## Locations\n- vendor/github.com/containerd/typeurl/\n\n\n## References\n* Common Weakness Enumeration: [CWE-190](https://cwe.mitre.org/data/definitions/190.html)\n* Common Weakness Enumeration: [CWE-266](https://cwe.mitre.org/data/definitions/266.html)\n\n",
+                                "text": "containerd 2.0.2-2.fc42 has the following vulnerabilities: [:yellow_circle:] BDSA-2025-2173, [:yellow_circle:] BDSA-2025-4499(CVE-2025-47291)"
                             },
                             "properties": {
                                 "security-severity": "6.8",
@@ -251,10 +253,8 @@
                                     "open_source_analysis",
                                     "exact directory",
                                     "patch_available",
-                                    "external/cwe/cwe-20",
-                                    "external/cwe/cwe-863",
-                                    "external/cwe/cwe-693",
-                                    "external/cwe/cwe-362"
+                                    "external/cwe/cwe-190",
+                                    "external/cwe/cwe-266"
                                 ]
                             },
                             "defaultConfiguration": {
@@ -262,25 +262,25 @@
                             }
                         },
                         {
-                            "id": "googlecloudplatform kubernetes:v1.34.0-rc.1",
+                            "id": "go-jose go-jose:v4.0.4",
                             "shortDescription": {
-                                "text": "Exact Directory: googlecloudplatform kubernetes:v1.34.0-rc.1"
+                                "text": "Direct Dependency: go-jose go-jose:v4.0.4"
                             },
                             "fullDescription": {
-                                "text": "googlecloudplatform kubernetes:v1.34.0-rc.1 has the following vulnerabilities: [:yellow_circle:] BDSA-2025-9979"
+                                "text": "go-jose go-jose:v4.0.4 has the following vulnerabilities: [:yellow_circle:] BDSA-2025-1443"
                             },
                             "help": {
-                                "markdown": "\n## Upgrade Guidance\n\n\n\n| **Affected Dependency**  | **Recommended short term version** | **Recommended long term version** |\n| :--- | :--- | :--- |\n| googlecloudplatform kubernetes:v1.34.0-rc.1  | 1.34.1  | 1.34.1 |\n\n\n\n[Click Here To See More Details in Black Duck](https://saastest.app.blackduck.com//api/projects/f2fdbe66-e337-439c-9887-6aa61e1df1bf/versions/c85bf998-3544-44a6-9b11-89efdbdcf326/vulnerability-bom?selectedComponent=76294af8-b551-40c9-9f48-dd5048fb47fb)\n\n## Vulnerabilities(BDSA,CVE)\n\n \n| **Severity**  | **Vulnerability** | **Summary** | **Solution Available?** | **Workaround Available?** |\n| :--- |:--- | :--- | :--- | :--- |\n| :yellow_circle: | [BDSA-2025-9979](https://openhub.net/vulnerabilities/bdsa/BDSA-2025-9979) | Kubernetes Vulnerable to Unauthorized Node Deletion via Improper Handling of 'OwnerReference' in 'admission.go' FIle | Yes | Yes |\n\n\n\n\n## References\n* Common Weakness Enumeration: [CWE-863](https://cwe.mitre.org/data/definitions/863.html)\n\n",
-                                "text": "googlecloudplatform kubernetes:v1.34.0-rc.1 has the following vulnerabilities: [:yellow_circle:] BDSA-2025-9979"
+                                "markdown": "\n## Upgrade Guidance\n\n\n\n| **Affected Dependency**  | **Recommended short term version** | **Recommended long term version** |\n| :--- | :--- | :--- |\n| go-jose go-jose:v4.0.4  | v4.1.2  | v4.1.2 |\n\n\n\n[Click Here To See More Details in Black Duck](https://saastest.app.blackduck.com//api/projects/f2fdbe66-e337-439c-9887-6aa61e1df1bf/versions/c85bf998-3544-44a6-9b11-89efdbdcf326/vulnerability-bom?selectedComponent=4426d432-cf98-4909-a5b4-8075180bcc49)\n\n## Vulnerabilities(BDSA,CVE)\n\n \n| **Severity**  | **Vulnerability** | **Summary** | **Solution Available?** | **Workaround Available?** |\n| :--- |:--- | :--- | :--- | :--- |\n| :yellow_circle: | [BDSA-2025-1443](https://openhub.net/vulnerabilities/bdsa/BDSA-2025-1443) | Go JOSE Vulnerable to Denial of Service via Excessive Memory Consumption in 'strings.Split' Function | Yes | - |\n\n\n\n\n\n\n## References\n* Common Weakness Enumeration: [CWE-770](https://cwe.mitre.org/data/definitions/770.html)\n\n",
+                                "text": "go-jose go-jose:v4.0.4 has the following vulnerabilities: [:yellow_circle:] BDSA-2025-1443"
                             },
                             "properties": {
                                 "security-severity": "6.8",
                                 "tags": [
                                     "security",
                                     "open_source_analysis",
-                                    "exact directory",
+                                    "direct dependency",
                                     "patch_available",
-                                    "external/cwe/cwe-863"
+                                    "external/cwe/cwe-770"
                                 ]
                             },
                             "defaultConfiguration": {
@@ -299,152 +299,77 @@
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
-                                    "uri": "vendor/golang.org/x/text/cases/"
+                                    "uri": "api/"
+                                }
+                            }
+                        },
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "api/discovery/"
+                                }
+                            }
+                        },
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "build/pause/"
+                                }
+                            }
+                        },
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "CHANGELOG/"
+                                }
+                            }
+                        },
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "cluster/addons/"
+                                }
+                            }
+                        },
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "cluster/gce/addons/"
+                                }
+                            }
+                        },
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "cluster/gce/manifests/"
+                                }
+                            }
+                        },
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "cluster/gce/windows/"
+                                }
+                            }
+                        },
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "cluster/images/etcd/"
+                                }
+                            }
+                        },
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "cluster/log-dump/"
                                 }
                             }
                         }
                     ],
-                    "ruleId": "docker-buildx 0.17.0-1.fc41",
+                    "ruleId": "googlecloudplatform kubernetes:v1.34.0-rc.1",
                     "partialFingerprints": {
-                        "ruleIdLocationHash/v1": "450dbedfd1c542b0134460aa89076694db556a763e20d19eafe8a17ffcaad974"
-                    }
-                },
-                {
-                    "message": {
-                        "text": "This dependency has vulnerabilities. For detailed information regarding the vulnerabilities, take a look at the BDSAs and/or CVEs below."
-                    },
-                    "locations": [
-                        {
-                            "physicalLocation": {
-                                "artifactLocation": {
-                                    "uri": "file://unknown-file"
-                                },
-                                "region": {
-                                    "startLine": 1
-                                }
-                            }
-                        }
-                    ],
-                    "ruleId": "go-jose go-jose:v4.0.4",
-                    "partialFingerprints": {
-                        "ruleIdLocationHash/v1": "d02664f66735039a4dc012ecd05dee6acbf6a2b68cb45c3cb49493cbbaab7ceb"
-                    }
-                },
-                {
-                    "message": {
-                        "text": "This dependency has vulnerabilities. For detailed information regarding the vulnerabilities, take a look at the BDSAs and/or CVEs below."
-                    },
-                    "locations": [
-                        {
-                            "physicalLocation": {
-                                "artifactLocation": {
-                                    "uri": "vendor/github.com/containerd/typeurl/"
-                                }
-                            }
-                        }
-                    ],
-                    "ruleId": "containerd 2.0.2-2.fc42",
-                    "partialFingerprints": {
-                        "ruleIdLocationHash/v1": "008e7dfe42cf4d9f4786c8e17af83e51c6f01f79d75ad8942678b53bc2bf4528"
-                    }
-                },
-                {
-                    "message": {
-                        "text": "This dependency has vulnerabilities. For detailed information regarding the vulnerabilities, take a look at the BDSAs and/or CVEs below."
-                    },
-                    "locations": [
-                        {
-                            "physicalLocation": {
-                                "artifactLocation": {
-                                    "uri": "staging/src/k8s.io/api/admission/"
-                                }
-                            }
-                        },
-                        {
-                            "physicalLocation": {
-                                "artifactLocation": {
-                                    "uri": "staging/src/k8s.io/api/apidiscovery/"
-                                }
-                            }
-                        },
-                        {
-                            "physicalLocation": {
-                                "artifactLocation": {
-                                    "uri": "staging/src/k8s.io/api/apiserverinternal/"
-                                }
-                            }
-                        },
-                        {
-                            "physicalLocation": {
-                                "artifactLocation": {
-                                    "uri": "staging/src/k8s.io/api/authentication/"
-                                }
-                            }
-                        },
-                        {
-                            "physicalLocation": {
-                                "artifactLocation": {
-                                    "uri": "staging/src/k8s.io/api/authorization/v1beta1/"
-                                }
-                            }
-                        },
-                        {
-                            "physicalLocation": {
-                                "artifactLocation": {
-                                    "uri": "staging/src/k8s.io/api/autoscaling/v2beta1/"
-                                }
-                            }
-                        },
-                        {
-                            "physicalLocation": {
-                                "artifactLocation": {
-                                    "uri": "staging/src/k8s.io/api/autoscaling/v2beta2/"
-                                }
-                            }
-                        },
-                        {
-                            "physicalLocation": {
-                                "artifactLocation": {
-                                    "uri": "staging/src/k8s.io/api/batch/v1beta1/"
-                                }
-                            }
-                        },
-                        {
-                            "physicalLocation": {
-                                "artifactLocation": {
-                                    "uri": "staging/src/k8s.io/api/events/"
-                                }
-                            }
-                        },
-                        {
-                            "physicalLocation": {
-                                "artifactLocation": {
-                                    "uri": "staging/src/k8s.io/apiextensions-apiserver/pkg/client/clientset/clientset/typed/"
-                                }
-                            }
-                        }
-                    ],
-                    "ruleId": "googlecloudplatform kubernetes:v1.33.0-beta.0",
-                    "partialFingerprints": {
-                        "ruleIdLocationHash/v1": "7ec18adfb85b551feb09010cdf121174233127f9e147b759c5d474c431651271"
-                    }
-                },
-                {
-                    "message": {
-                        "text": "This dependency has vulnerabilities. For detailed information regarding the vulnerabilities, take a look at the BDSAs and/or CVEs below."
-                    },
-                    "locations": [
-                        {
-                            "physicalLocation": {
-                                "artifactLocation": {
-                                    "uri": "staging/src/k8s.io/csi-translation-lib/plugins/"
-                                }
-                            }
-                        }
-                    ],
-                    "ruleId": "googlecloudplatform kubernetes:v1.33.0-alpha.1",
-                    "partialFingerprints": {
-                        "ruleIdLocationHash/v1": "da9bfa737259948aa7dbd03166f41fb17e59e8f92498a8073c12cdc5df7983ed"
+                        "ruleIdLocationHash/v1": "2d72f8a4eceefd06fcde03f882ad2bd87cfb60846b6a9135ba414364a716ee34"
                     }
                 },
                 {
@@ -536,17 +461,77 @@
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
-                                    "uri": "file://unknown-file"
-                                },
-                                "region": {
-                                    "startLine": 1
+                                    "uri": "staging/src/k8s.io/code-generator/cmd/applyconfiguration-gen/"
+                                }
+                            }
+                        },
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "staging/src/k8s.io/code-generator/cmd/informer-gen/"
+                                }
+                            }
+                        },
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "staging/src/k8s.io/code-generator/examples/apiserver/informers/"
+                                }
+                            }
+                        },
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "staging/src/k8s.io/code-generator/examples/apiserver/listers/"
+                                }
+                            }
+                        },
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "staging/src/k8s.io/code-generator/examples/crd/listers/"
+                                }
+                            }
+                        },
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "staging/src/k8s.io/code-generator/examples/HyphenGroup/listers/"
+                                }
+                            }
+                        },
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "staging/src/k8s.io/code-generator/examples/MixedCase/listers/"
+                                }
+                            }
+                        },
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "staging/src/k8s.io/code-generator/examples/single/listers/"
+                                }
+                            }
+                        },
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "staging/src/k8s.io/kube-aggregator/pkg/client/listers/"
+                                }
+                            }
+                        },
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "staging/src/k8s.io/kube-aggregator/pkg/controllers/openapi/"
                                 }
                             }
                         }
                     ],
-                    "ruleId": "go-jose go-jose:v2.6.3",
+                    "ruleId": "googlecloudplatform kubernetes:v1.32.0-alpha.3",
                     "partialFingerprints": {
-                        "ruleIdLocationHash/v1": "c51b03bfe3fb512725012c9ab84af82a650aa4a419356f0b9096e50ac5d22286"
+                        "ruleIdLocationHash/v1": "47fd060902f67cc9efa22316fa1719cc223f7d41e5cc119ed164ddf9f351273e"
                     }
                 },
                 {
@@ -557,77 +542,176 @@
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
-                                    "uri": "staging/src/k8s.io/apiserver/pkg/admission/plugin/webhook/config/apis/webhookadmission/v1/"
-                                }
-                            }
-                        },
-                        {
-                            "physicalLocation": {
-                                "artifactLocation": {
-                                    "uri": "staging/src/k8s.io/apiserver/pkg/admission/plugin/webhook/config/apis/webhookadmission/v1alpha1/"
-                                }
-                            }
-                        },
-                        {
-                            "physicalLocation": {
-                                "artifactLocation": {
-                                    "uri": "vendor/github.com/NYTimes/"
-                                }
-                            }
-                        },
-                        {
-                            "physicalLocation": {
-                                "artifactLocation": {
-                                    "uri": "vendor/golang.org/x/text/feature/"
-                                }
-                            }
-                        },
-                        {
-                            "physicalLocation": {
-                                "artifactLocation": {
-                                    "uri": "vendor/golang.org/x/text/message/catalog/"
-                                }
-                            }
-                        },
-                        {
-                            "physicalLocation": {
-                                "artifactLocation": {
-                                    "uri": "vendor/gopkg.in/go-jose/go-jose.v2/json/"
-                                }
-                            }
-                        },
-                        {
-                            "physicalLocation": {
-                                "artifactLocation": {
-                                    "uri": "vendor/gopkg.in/natefinch/"
-                                }
-                            }
-                        },
-                        {
-                            "physicalLocation": {
-                                "artifactLocation": {
-                                    "uri": "vendor/k8s.io/kube-openapi/pkg/builder/"
-                                }
-                            }
-                        },
-                        {
-                            "physicalLocation": {
-                                "artifactLocation": {
-                                    "uri": "vendor/k8s.io/kube-openapi/pkg/validation/errors/"
-                                }
-                            }
-                        },
-                        {
-                            "physicalLocation": {
-                                "artifactLocation": {
-                                    "uri": "vendor/k8s.io/utils/internal/"
+                                    "uri": "vendor/golang.org/x/text/cases/"
                                 }
                             }
                         }
                     ],
-                    "ruleId": "grafana 10.2.6-13.el10",
+                    "ruleId": "docker-buildx 0.17.0-1.fc41",
                     "partialFingerprints": {
-                        "ruleIdLocationHash/v1": "6a915767e5a5601bf692eb1dd0ce8d75190e390a5951f2d93b2d9c4ace5dcef7"
+                        "ruleIdLocationHash/v1": "450dbedfd1c542b0134460aa89076694db556a763e20d19eafe8a17ffcaad974"
+                    }
+                },
+                {
+                    "message": {
+                        "text": "This dependency has vulnerabilities. For detailed information regarding the vulnerabilities, take a look at the BDSAs and/or CVEs below."
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "api/"
+                                }
+                            }
+                        },
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "api/discovery/"
+                                }
+                            }
+                        },
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "build/pause/"
+                                }
+                            }
+                        },
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "CHANGELOG/"
+                                }
+                            }
+                        },
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "cluster/addons/"
+                                }
+                            }
+                        },
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "cluster/gce/addons/"
+                                }
+                            }
+                        },
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "cluster/gce/manifests/"
+                                }
+                            }
+                        },
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "cluster/gce/windows/"
+                                }
+                            }
+                        },
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "cluster/images/etcd/"
+                                }
+                            }
+                        },
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "cluster/log-dump/"
+                                }
+                            }
+                        }
+                    ],
+                    "ruleId": "googlecloudplatform kubernetes:v1.34.0-rc.1",
+                    "partialFingerprints": {
+                        "ruleIdLocationHash/v1": "2d72f8a4eceefd06fcde03f882ad2bd87cfb60846b6a9135ba414364a716ee34"
+                    }
+                },
+                {
+                    "message": {
+                        "text": "This dependency has vulnerabilities. For detailed information regarding the vulnerabilities, take a look at the BDSAs and/or CVEs below."
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "hack/jenkins/"
+                                }
+                            }
+                        },
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "pkg/features/"
+                                }
+                            }
+                        },
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "pkg/kubelet/apis/config/"
+                                }
+                            }
+                        },
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "pkg/kubelet/cm/cpumanager/"
+                                }
+                            }
+                        },
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "pkg/kubelet/userns/"
+                                }
+                            }
+                        },
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "staging/src/k8s.io/api/testdata/v1.33.0/"
+                                }
+                            }
+                        },
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "staging/src/k8s.io/client-go/tools/cache/"
+                                }
+                            }
+                        },
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "test/cmd/"
+                                }
+                            }
+                        },
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "test/e2e/apimachinery/"
+                                }
+                            }
+                        },
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "test/e2e/apps/"
+                                }
+                            }
+                        }
+                    ],
+                    "ruleId": "kubernetes1.33 1.33.0-1.fc42",
+                    "partialFingerprints": {
+                        "ruleIdLocationHash/v1": "5d29ff8e003d502abbad1c508f364e02324c8eae6de4b5b63a3f17c3b8a51585"
                     }
                 },
                 {
@@ -719,6 +803,225 @@
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
+                                    "uri": "staging/src/k8s.io/apiserver/pkg/admission/plugin/webhook/config/apis/webhookadmission/v1/"
+                                }
+                            }
+                        },
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "staging/src/k8s.io/apiserver/pkg/admission/plugin/webhook/config/apis/webhookadmission/v1alpha1/"
+                                }
+                            }
+                        },
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "vendor/github.com/NYTimes/"
+                                }
+                            }
+                        },
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "vendor/golang.org/x/text/feature/"
+                                }
+                            }
+                        },
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "vendor/golang.org/x/text/message/catalog/"
+                                }
+                            }
+                        },
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "vendor/gopkg.in/go-jose/go-jose.v2/json/"
+                                }
+                            }
+                        },
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "vendor/gopkg.in/natefinch/"
+                                }
+                            }
+                        },
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "vendor/k8s.io/kube-openapi/pkg/builder/"
+                                }
+                            }
+                        },
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "vendor/k8s.io/kube-openapi/pkg/validation/errors/"
+                                }
+                            }
+                        },
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "vendor/k8s.io/utils/internal/"
+                                }
+                            }
+                        }
+                    ],
+                    "ruleId": "grafana 10.2.6-13.el10",
+                    "partialFingerprints": {
+                        "ruleIdLocationHash/v1": "6a915767e5a5601bf692eb1dd0ce8d75190e390a5951f2d93b2d9c4ace5dcef7"
+                    }
+                },
+                {
+                    "message": {
+                        "text": "This dependency has vulnerabilities. For detailed information regarding the vulnerabilities, take a look at the BDSAs and/or CVEs below."
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "staging/src/k8s.io/csi-translation-lib/plugins/"
+                                }
+                            }
+                        }
+                    ],
+                    "ruleId": "googlecloudplatform kubernetes:v1.33.0-alpha.1",
+                    "partialFingerprints": {
+                        "ruleIdLocationHash/v1": "da9bfa737259948aa7dbd03166f41fb17e59e8f92498a8073c12cdc5df7983ed"
+                    }
+                },
+                {
+                    "message": {
+                        "text": "This dependency has vulnerabilities. For detailed information regarding the vulnerabilities, take a look at the BDSAs and/or CVEs below."
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "staging/src/k8s.io/api/admission/"
+                                }
+                            }
+                        },
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "staging/src/k8s.io/api/apidiscovery/"
+                                }
+                            }
+                        },
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "staging/src/k8s.io/api/apiserverinternal/"
+                                }
+                            }
+                        },
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "staging/src/k8s.io/api/authentication/"
+                                }
+                            }
+                        },
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "staging/src/k8s.io/api/authorization/v1beta1/"
+                                }
+                            }
+                        },
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "staging/src/k8s.io/api/autoscaling/v2beta1/"
+                                }
+                            }
+                        },
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "staging/src/k8s.io/api/autoscaling/v2beta2/"
+                                }
+                            }
+                        },
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "staging/src/k8s.io/api/batch/v1beta1/"
+                                }
+                            }
+                        },
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "staging/src/k8s.io/api/events/"
+                                }
+                            }
+                        },
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "staging/src/k8s.io/apiextensions-apiserver/pkg/client/clientset/clientset/typed/"
+                                }
+                            }
+                        }
+                    ],
+                    "ruleId": "googlecloudplatform kubernetes:v1.33.0-beta.0",
+                    "partialFingerprints": {
+                        "ruleIdLocationHash/v1": "7ec18adfb85b551feb09010cdf121174233127f9e147b759c5d474c431651271"
+                    }
+                },
+                {
+                    "message": {
+                        "text": "This dependency has vulnerabilities. For detailed information regarding the vulnerabilities, take a look at the BDSAs and/or CVEs below."
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file://unknown-file"
+                                },
+                                "region": {
+                                    "startLine": 1
+                                }
+                            }
+                        }
+                    ],
+                    "ruleId": "go-jose go-jose:v2.6.3",
+                    "partialFingerprints": {
+                        "ruleIdLocationHash/v1": "c51b03bfe3fb512725012c9ab84af82a650aa4a419356f0b9096e50ac5d22286"
+                    }
+                },
+                {
+                    "message": {
+                        "text": "This dependency has vulnerabilities. For detailed information regarding the vulnerabilities, take a look at the BDSAs and/or CVEs below."
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "vendor/github.com/containerd/typeurl/"
+                                }
+                            }
+                        }
+                    ],
+                    "ruleId": "containerd 2.0.2-2.fc42",
+                    "partialFingerprints": {
+                        "ruleIdLocationHash/v1": "008e7dfe42cf4d9f4786c8e17af83e51c6f01f79d75ad8942678b53bc2bf4528"
+                    }
+                },
+                {
+                    "message": {
+                        "text": "This dependency has vulnerabilities. For detailed information regarding the vulnerabilities, take a look at the BDSAs and/or CVEs below."
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
                                     "uri": "api/"
                                 }
                             }
@@ -790,6 +1093,189 @@
                     "ruleId": "googlecloudplatform kubernetes:v1.34.0-rc.1",
                     "partialFingerprints": {
                         "ruleIdLocationHash/v1": "2d72f8a4eceefd06fcde03f882ad2bd87cfb60846b6a9135ba414364a716ee34"
+                    }
+                },
+                {
+                    "message": {
+                        "text": "This dependency has vulnerabilities. For detailed information regarding the vulnerabilities, take a look at the BDSAs and/or CVEs below."
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "hack/jenkins/"
+                                }
+                            }
+                        },
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "pkg/features/"
+                                }
+                            }
+                        },
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "pkg/kubelet/apis/config/"
+                                }
+                            }
+                        },
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "pkg/kubelet/cm/cpumanager/"
+                                }
+                            }
+                        },
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "pkg/kubelet/userns/"
+                                }
+                            }
+                        },
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "staging/src/k8s.io/api/testdata/v1.33.0/"
+                                }
+                            }
+                        },
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "staging/src/k8s.io/client-go/tools/cache/"
+                                }
+                            }
+                        },
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "test/cmd/"
+                                }
+                            }
+                        },
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "test/e2e/apimachinery/"
+                                }
+                            }
+                        },
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "test/e2e/apps/"
+                                }
+                            }
+                        }
+                    ],
+                    "ruleId": "kubernetes1.33 1.33.0-1.fc42",
+                    "partialFingerprints": {
+                        "ruleIdLocationHash/v1": "5d29ff8e003d502abbad1c508f364e02324c8eae6de4b5b63a3f17c3b8a51585"
+                    }
+                },
+                {
+                    "message": {
+                        "text": "This dependency has vulnerabilities. For detailed information regarding the vulnerabilities, take a look at the BDSAs and/or CVEs below."
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "staging/src/k8s.io/api/admission/"
+                                }
+                            }
+                        },
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "staging/src/k8s.io/api/apidiscovery/"
+                                }
+                            }
+                        },
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "staging/src/k8s.io/api/apiserverinternal/"
+                                }
+                            }
+                        },
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "staging/src/k8s.io/api/authentication/"
+                                }
+                            }
+                        },
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "staging/src/k8s.io/api/authorization/v1beta1/"
+                                }
+                            }
+                        },
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "staging/src/k8s.io/api/autoscaling/v2beta1/"
+                                }
+                            }
+                        },
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "staging/src/k8s.io/api/autoscaling/v2beta2/"
+                                }
+                            }
+                        },
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "staging/src/k8s.io/api/batch/v1beta1/"
+                                }
+                            }
+                        },
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "staging/src/k8s.io/api/events/"
+                                }
+                            }
+                        },
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "staging/src/k8s.io/apiextensions-apiserver/pkg/client/clientset/clientset/typed/"
+                                }
+                            }
+                        }
+                    ],
+                    "ruleId": "googlecloudplatform kubernetes:v1.33.0-beta.0",
+                    "partialFingerprints": {
+                        "ruleIdLocationHash/v1": "7ec18adfb85b551feb09010cdf121174233127f9e147b759c5d474c431651271"
+                    }
+                },
+                {
+                    "message": {
+                        "text": "This dependency has vulnerabilities. For detailed information regarding the vulnerabilities, take a look at the BDSAs and/or CVEs below."
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file://unknown-file"
+                                },
+                                "region": {
+                                    "startLine": 1
+                                }
+                            }
+                        }
+                    ],
+                    "ruleId": "go-jose go-jose:v4.0.4",
+                    "partialFingerprints": {
+                        "ruleIdLocationHash/v1": "d02664f66735039a4dc012ecd05dee6acbf6a2b68cb45c3cb49493cbbaab7ceb"
                     }
                 }
             ]

@@ -128,3 +128,6 @@ vendordiff.patch
 blackducksca.json
 .bridge/
 .codesight/
+components.json
+vuln_boms.json
+bdsca.json
